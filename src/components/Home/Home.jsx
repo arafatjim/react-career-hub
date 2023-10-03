@@ -1,10 +1,16 @@
-import React from 'react';
+import Banner from "../Banner/Banner";
+import CategoryList from "../CategoryList/CategoryList";
+import Features from "../Features/Features";
+
 
 const Home = () => {
           return (
-                    <div>
-                       <h2>Home Page:</h2>       
-                    </div>
+            <div>
+               <Banner></Banner>
+               <CategoryList></CategoryList>
+               <Features></Features>
+          
+            </div>
           );
 };
 
